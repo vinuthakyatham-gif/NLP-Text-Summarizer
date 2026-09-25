@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(16, 223, 85);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+h1, h2, h3, h4 {
+    color: #212121;
+}
+
+textarea.form-control {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+input.form-control, select.form-control {
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Summarizer - Home</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background: rgb(16, 223, 85); font-family: 'Open Sans', sans-serif;">
+
+<nav class="navbar navbar-expand-sm bg-dark fixed-top">
+  <a class="navbar-brand text-white" href="#"><b>Text Summarizer</b></a>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item"><a class="nav-link text-white" href="/home"><i class="fa fa-home"></i> Home</a></li>
+    <li class="nav-item"><a class="nav-link text-white" href="/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
+  </ul>
+</nav>
+
+<div class="container text-center" style="padding: 150px 0;">
+  <h1 style="font-size: 3rem;">Welcome to Text Summarizer</h1>
+  <p style="font-size: 1.2rem;">Summarize long texts into short, meaningful summaries in seconds!</p>
+  <a href="{{ url_for('summarizer') }}" class="btn btn-primary btn-lg">
+    <i class="fa fa-magic"></i> Start Summarizing
+  </a>
+</div>
+
+<div class="footer bg-dark text-white text-center py-2 fixed-bottom">
+  <p>Made with ❤️ | &copy; 2025 Text Summarizer</p>
+</div>
+
+</body>
+</html>
